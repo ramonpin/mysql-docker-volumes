@@ -27,7 +27,8 @@ mysql-cp:
 
 mysql-stop:
 	@echo "Paramos el servidor prístino."
-	@docker cp mysql:/var/lib/mysql .
+	@docker stop mysql
+	@docker rm mysql
 
 mysql-vol:
 	@echo "Arrancando un mysql sobre el volumen exportado."
