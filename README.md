@@ -4,7 +4,7 @@ Varias pruebas de uso de Docker con volúmenes locales.
 
 Para ejecutar las diferentes pruebas:
 
-   $> make
+    $> make
 
 Lista las diferentes tareas:
 
